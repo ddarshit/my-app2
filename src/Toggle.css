@@ -1,0 +1,17 @@
+.bg {
+    background-color: rgb(141, 158, 11);
+    box-shadow: rgba(0, 0, 0, 0.55) 15px 15px 15px 15px, rgba(0, 0, 0, 0.55) 0px 0px 0px 0px;   
+}
+p{
+    text-align: center;
+}
+p:hover {
+   color: aliceblue;
+   text-transform: uppercase;
+   transition: 2s;
+   transform: rotate(360deg);
+}
+
+.class {
+    padding: 50px;
+}
