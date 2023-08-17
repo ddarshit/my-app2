@@ -1,13 +1,15 @@
 import React from "react";
-import Textform from "./component/Textform";
-import Usestate from "./Usestate";
+// import Usestate from "./Usestate";
+import TextForm from "./component/TextForm";
+// import Toggle from "./Toggle";
 
 export default function About() {
   return (
     <>
       <h1>About</h1>
-      <Textform/>
-      <Usestate/>
+      <TextForm/>
+      {/* <Usestate/>
+      <Toggle/> */}
     </>
   );
 }
