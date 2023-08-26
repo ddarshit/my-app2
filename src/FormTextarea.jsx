@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Component } from "react";
 
 class FormTextarea extends Component {
@@ -13,12 +13,12 @@ class FormTextarea extends Component {
     event.preventDefault();
     console.log(this.state.textarea);
   };
-
   render() {
     return (
       <>
         <div className="container">
-          <form onSubmit={(event) => this.ok(event)} className="my-5">
+          <h2 className="my-3">textarea Type Form:</h2>
+          <form onSubmit={(event) => this.ok(event)} className="my-">
             <textarea
               value={this.state.textarea}
               cols="30"
@@ -28,7 +28,7 @@ class FormTextarea extends Component {
               }
             ></textarea>
             <br />
-            <input type="submit" value="Submit" className="" />
+            <input type="submit" value="Submit" />
           </form>
         </div>
       </>
