@@ -3,6 +3,7 @@ import React from "react";
 // import FormTextarea from "./FormTextarea";
 import TodoList from "./TodoList";
 import UseEffect from "./UseEffect";
+import Counter from "./Counter";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <FormTextarea /> */}
       <TodoList/>
       <UseEffect/>
+      <Counter/>
       </div>
       
     </>
